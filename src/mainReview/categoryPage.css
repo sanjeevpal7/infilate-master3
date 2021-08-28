@@ -1,0 +1,88 @@
+.category-page{
+display:flex;
+width: 100%;
+background-color: orange;
+
+padding-top: 20px;
+}
+
+.custom-checkbox-label{
+    /* border: 1px solid black; */
+    width:500px;
+    margin-right: 20px;
+    margin-left: -50px
+}
+
+.myfirsttest{
+    display:flex;
+    align-items: center;
+    border: 1px solid #C0C0C0;
+    width:350px;
+    height: 36px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.myfirsttest > img{
+    width:20px;
+    height: auto
+    
+}
+
+.myfirsttest:hover{
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+div.b{
+width:300px;
+text-overflow: ellipsis; 
+overflow: hidden;
+white-space: nowrap;
+font-weight: bold;
+font-size: 14px;
+padding-left: 10px;
+}
+
+.chakde{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    cursor: pointer;
+    font-weight: 400;
+    position:-webkit-sticky;
+    position:sticky;
+    top: 100px;
+}
+
+.myfirsttestticked{
+    display:flex;
+    align-items: center;
+    border: 1px solid #C0C0C0;
+    width:500px;
+    height: 36px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.myfirsttestticked > img{
+    width:20px;
+    height: auto
+    
+}
+
+div.c{
+    width:450px;
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    white-space: nowrap;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+    }
+
+
+.MuiBox-root-3{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
